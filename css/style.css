@@ -1,0 +1,46 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+/* Remove padding and margin, because we need all the screen */
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #7ACC2D;
+    padding: 8px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Set attributes for a element of the class */
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 16px;
+    list-style: none;
+    color: white;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+    text-decoration: none;
+}
