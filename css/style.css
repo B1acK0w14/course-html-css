@@ -7,6 +7,8 @@
 #  ·················
 */
 
+/* ----------- Properties ----------- */
+
 /* Remove padding and margin, because we need all the screen */
 html, body {
     padding: 0px;
@@ -17,7 +19,7 @@ html, body {
 
 nav {
     display: flex;
-    background-color: #7ACC2D;
+    background-color: #f7c485;
     padding: 8px;
     color: white;
     justify-content: space-between;
@@ -40,7 +42,57 @@ nav li a {
     text-decoration: none;
 }
 
+/* Hover is used for highligth a thing */
 nav li a:hover {
     color: white;
     text-decoration: none;
+}
+
+/* ----------- Main Section ----------- */ 
+.main_section {
+    padding: 8%;
+    text-align: center;
+}
+
+.products {
+    background-image: url("../images/curve.png");
+    height: 100px;
+    /* This propertie fill the size of the content and center the image */
+    background-size: cover;
+    background-position: center top;
+    padding: 16%;
+    display: flex;
+}
+
+.product {
+    padding: 8px;
+    margin-top: -300px;
+    display: flex;
+}
+
+.product .content{
+    background-color: white;
+    padding: 24px;
+    /* Shadow of content: (positionX) (positionY) (size) (colour) */
+    box-shadow: 0 0 2px #c1bcbc;
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: #7acc2d;
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    color: white;
+    border: 0;
+    /* To put the hand of the cursor */
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover {
+    background-color: #5e9e22;
 }
