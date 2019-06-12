@@ -99,3 +99,32 @@ nav li a:hover {
 .main_button:hover {
     background-color: #5e9e22;
 }
+
+/* ----------- Section with 3 more elements ----------- */
+.title_other_products {
+    padding: 1%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.other_products {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 2px -2px #c1bcbc;
+}
+
+.other_product {
+    padding: 20px;
+}
+
+.other_product .content {
+    background-color: white;
+    padding: 24px;
+    text-align: center;
+    font-size: 16px;
+}
