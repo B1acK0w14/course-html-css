@@ -1,0 +1,99 @@
+.products_container {
+    width: 80%;
+    margin-top: 120px;
+    margin-left: 142px;
+    margin-right: 138px;
+}
+
+.products_container h1 {
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 104px;
+}
+
+.row {
+    display: flex;
+    margin-top: 50px;
+}
+
+.row img {
+    width: 230px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.row h1 {
+    margin-top: 86px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.row p {
+    font-size: 14px;
+}
+
+.col-1 {
+    width: 8.33333333333%;
+}
+
+.col-2 {
+    width: 16.6666666666%;
+}
+
+.col-3 {
+    width: 24.9999999999%;
+}
+
+.col-4 {
+    width: 33.3333333332%;
+}
+
+.col-5 {
+    width: 41.6666666665%;
+}
+
+.col-6 {
+    width: 49.9999999998%;
+}
+
+.col-7 {
+    width: 58.3333333331%;
+}
+
+.col-8 {
+    width: 66.6666666664%;
+}
+
+.col-9 {
+    width: 74.9999999997%;
+}
+
+.col-10 {
+    width: 83.333333333%;
+}
+
+.col-11 {
+    width: 91.6666666663%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* Select all the atributes of the class col- */
+[class*="col-"] { 
+    padding: 10px;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .row {
+        display: inherit;
+    }
+
+    [class*="col-"] { 
+        width: 100%;
+    }
+}
