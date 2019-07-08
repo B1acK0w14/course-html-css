@@ -83,6 +83,14 @@ footer li a:hover {
     text-decoration: none;
 }
 
+label {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
 .footer_options {
     margin-right: 24px;
     margin-left: -16px;
@@ -209,12 +217,40 @@ footer li a:hover {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .pay_module {
     background-color: white;
     box-shadow: 0 0 2px 1px #c1bcbc;
     padding: 10px;
+}
+
+.pay_module form {
+    margin-top: 10px;
+}
+
+.data_Inputs {
+    height: 35px;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.pay_module label {
+    margin-left: 14px;
+}
+
+.pay_module .main_button {
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 10px;
 }
 
 .pay_module_images {
