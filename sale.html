@@ -1,0 +1,69 @@
+<!-- Structure of HTML -->
+<html lang="es">
+    <!-- Determine a section --> 
+    <head>
+        <!-- All the page will have UTF-8 format --> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <title>Brand!</title>
+    </head>
+    <body>
+        <nav class="fadeInDown">
+        <div class="brand_image">
+                <div class="img_content">
+                        <img src="images/logo.png" alt="">
+                </div>
+            </div>
+            <div class="nav_options">
+                <ul>
+                    <li><a href="#">Faqs</a></li>
+                    <li><a href="#">Producto y descripción</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Sale Form -->
+        <div class="sales_container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="pay_module">
+                        <div class="pay_module_images">
+                            <img src="images/box2.png" alt="">
+                        </div>
+                        <h3>Producto 1</h3>
+                        <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos, Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <!-- Pay Section -->
+                    <div class="pay_module">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5PYK35YCG9KZU" method="POST">
+                            <label for="name">Nombre</label>
+                            <input type="text" placeholder="" name="name" class="data_Inputs">
+                            <label for="email">E-mail</label>
+                            <input type="text" placeholder="" name="email" class="data_Inputs">
+                            <label for="phone">Télefono</label>
+                            <input type="text" placeholder="" name="phone" class="data_Inputs">
+                            <input type="submit" class="main_button" name="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="footer_options">
+            <ul>
+                <li><a href="#">Términos y condiciones</a></li>
+            </ul>
+        </div>
+        <div class="footer_options">
+            <ul>
+                <li><a href="#">contacto@gmail.com</a></li>
+            </ul>
+        </div>
+    </footer>
+</html>

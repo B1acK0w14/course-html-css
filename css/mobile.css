@@ -1,0 +1,23 @@
+/* Here, we can make some modification of the page when the size (height or width)
+    changing if the user reduce or amplify the screen */
+@media (max-width: 600px) {
+
+    .products {
+        display: inherit;
+        height: auto;
+        max-height: none;
+    }
+
+    .product {
+        margin-top: auto;
+    }
+
+    .main_section {
+        padding: 4%;
+    }
+
+    .benefits, .container_mentions {
+        display: inherit;
+        height: auto;
+    }
+}
